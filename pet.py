@@ -10,7 +10,7 @@ class Pet(object):
 
     def __init__(self, birthyear, weight, length, color, owner=None):
         """Constructor for the Pet class.
-        
+
         Args:
             birthyear (int): Year the pet was born.
             weight (int): Weight of the pet in kg.
@@ -24,7 +24,7 @@ class Pet(object):
             weight (int): Weight of the pet in kg.
             length (int): Length of the pet in cm.
             color (str): Color of the pet.
-            owner (str, optional): Name of the pet's owner, defaults to None.    
+            owner (str, optional): Name of the pet's owner, defaults to None.
         """
         self.age = datetime.datetime.now().year - birthyear
         self.birthyear = birthyear
